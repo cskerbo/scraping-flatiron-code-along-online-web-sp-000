@@ -10,6 +10,6 @@ class Course
     end
 
     def self.all
-      Course.all
+      @@all
     end
 end
